@@ -1,4 +1,4 @@
-In this repo directory i use the SFTP (Secure File Transfer Protocol) command-line tool to move my project screenshots to the sandbox environment
+In this repo directory i use the SFTP (Secure File Transfer Protocol) command-line tool to move my project screenshots to the sandbox
 Here are the steps to follow:
 
 Take the screenshots of the completed levels as mentioned in the general requirements.
@@ -8,4 +8,3 @@ Take the screenshots of the completed levels as mentioned in the general require
 -Use the SFTP put command to upload the screenshots from your local machine to the sandbox environment.
 -Confirm that the screenshots have been successfully transferred by checking the sandbox directory.
 -Once the screenshots are transferred, you can proceed to push the screenshots to GitHub as mentioned in the initial requirements.
--Make sure to include the steps you followed to use the SFTP command-line tool in your project’s README.md file. This will help the reviewers understand how you performed the file transfer using SFTP
