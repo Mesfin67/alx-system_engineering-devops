@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+#bash script that displays Best School 10x using until loop
+
+repititions=10
+
+counter=0
+
+until [ $counter -eq $repititions ]
+do
+	echo "Best School"
+	((counter++))
+done
