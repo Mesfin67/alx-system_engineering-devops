@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+# Define the file path
+passwd_file="/etc/passwd"
+
+# Read the file line by line and extract specific fields
+while IFS=: read -r username _ _ gang homedir _ shell; do
+    echo "The user $username is part of the $gang gang, lives in $homedir, and rides $shell."
+done < "$passwd_file"
