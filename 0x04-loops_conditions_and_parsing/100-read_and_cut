@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+# Define the file path
+passwd_file="/etc/passwd"
+
+# Read the file line by line and extract specific fields
+while IFS=: read -r username _ userid _ homedir _; do
+    echo "$username:$userid:$homedir"
+done < "$passwd_file"
