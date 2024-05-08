@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+#bash script that checks if a file exists or not
 
 # Define the file name
 file="school"
@@ -21,4 +22,3 @@ if [ -e "$file" ]; then
 else
     echo "$file file does not exist"
 fi
-
