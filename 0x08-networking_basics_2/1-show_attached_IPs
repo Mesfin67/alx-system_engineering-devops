@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+#Bash script that displays all IPv4 IPs on a machine
+
+#Retrieve network interface configuration info and filter for IPv4 addresses
+ipv4_address=$(ifconfig / awk "/inet / {print $2}")
+
+#Print the IPv4 address
+echo "$ipv4_address"
