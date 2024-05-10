@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+#bash script that displays username,userid and homedirectory of user from passwd file
 
 # Define the file path
 passwd_file="/etc/passwd"
