@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+# Description: Listens on port 98 on localhost.
+# This script utilizes netcat (nc) to establish a listener on port 98 of the localhost.
+# When executed, it waits for an incoming connection on port 98. Upon connection, it displays
+# any received data on the console. To test this script, connect to the port using another
+# terminal window.
+
+# Define port and host
+port=98
+host="localhost"
+
+# Listen on the specified port
+nc -l "$host" "$port"
+
