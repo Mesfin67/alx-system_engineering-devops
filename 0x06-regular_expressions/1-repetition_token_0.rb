@@ -1,7 +1,4 @@
 #!/usr/bin/env ruby
-# Find all words that start with 'h', end with 'n', and have between 2 and 5 occurrences of 't' in between. and
-# Print the matching words
-input_string = ARGV[0]
-
-matching_words = input_string.scan(/\b[hH]\w*t{2,5}n\b/)
-puts matching_words.join("\n") 
+# Prints all the words that start with h, end with n, and have between 2 and 5 t's in between.
+# ./1-repetition_token_0.rb
+puts ARGV[0].scan(/hbt{2,5}n/).join
